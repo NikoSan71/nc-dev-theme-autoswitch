@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: NC - Dev Theme Autoswitch
-Plugin URI: 
+Plugin URI: https://github.com/NikoSan71/nc-dev-theme-autoswitch
 Description: Show a specific theme for one or more specified users.
 Author: Nicolas Cambas
 Author URI: http://blog.nicolascambas.com/
