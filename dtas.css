@@ -1,0 +1,22 @@
+.dtas-message {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	
+	color: #fff;
+	font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+	padding: 5px 10px;
+	border-radius: 0 2px 2px 0;
+	
+	border-top: 1px solid #bc0404;
+	border-right: 1px solid #bc0404;
+	border-bottom: 1px solid #bc0404;
+	
+	background: -moz-linear-gradient(90deg, #dd3a3a 0.2%, #d91717 100%) #c10606;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.002, #dd3a3a), to(#d91717)) #c10606;
+	
+	-moz-box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+	-webkit-box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+	box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+}
