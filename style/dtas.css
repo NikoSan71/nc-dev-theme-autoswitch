@@ -1,0 +1,183 @@
+/*	Front message
+================================================== */
+	.dtas-message {
+		position: fixed;
+		top: 50px;
+		left: 0;
+		
+		color: #fff;
+		font: bold 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		
+		padding: 5px 10px;
+		border-radius: 0 2px 2px 0;
+		
+		border-top: 1px solid #bc0404;
+		border-right: 1px solid #bc0404;
+		border-bottom: 1px solid #bc0404;
+		
+		background: -moz-linear-gradient(90deg, #dd3a3a 0.2%, #d91717 100%) #c10606;
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(0.002, #dd3a3a), to(#d91717)) #c10606;
+		
+		-moz-box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+		-webkit-box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+		box-shadow: inset 0 1px 0 #e72727, 0 0 3px rgba(49, 49, 49, 0.39);
+	}
+
+
+/*	Admin Panel
+================================================== */
+	
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.dtas-activate, .dtas-theme,
+	.dtas-users, .dtas-admin-message {
+		border: 1px solid #eee;
+		border-radius: 6px;
+		background-color: #f8f8f8;
+		padding: 10px 15px;
+		margin-bottom: 10px;
+	}
+	
+	.dtas-activate p,
+	.dtas-theme p,
+	.dtas-users p,
+	.dtas-admin-message p {
+		display: inline-block;
+		margin: 0;
+		margin-right: 15px;
+		color: #298bb9;
+		font-weight: bold;
+	}
+	
+	.dtas-activate label {
+		margin-right: 10px;
+	}
+	
+	.dtas-theme .options-help,
+	.dtas-users .options-help,
+	.dtas-admin-message .options-help {
+		display: block;
+		color: #999999;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 11px;
+		margin-top: 10px;
+	}
+	
+	
+/*	Multi-select
+================================================== */
+	.ms-container{
+		font-size: 12px;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.ms-container:after{
+	  content: "."; display: block; height: 0; line-height: 0; font-size: 0; clear: both; min-height: 0; visibility: hidden;
+	}
+	
+	.ms-container .ms-selectable, .ms-container .ms-selection{
+	  background: #fff;
+	  float: left;
+	  border-radius:         4px;
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius:    4px;
+	  -khtml-border-radius:  4px;
+	}
+	
+	.ms-selected{
+	  display:none;
+	}
+	.ms-container .ms-selectable {
+	  margin-right: 50px;
+	  border: 1px #ccc solid;
+	}
+	
+	.ms-container ul {
+	  margin: 0;
+	  list-style-type: none;  
+	}
+	
+	.ms-container ul li {
+	  margin-bottom: 0;
+	  line-height: 20px;
+	
+		-webkit-transition: background-color 100ms linear;
+		-moz-transition: background-color 100ms linear;
+		-o-transition: background-color 100ms linear;
+		-ms-transition: background-color 100ms linear;
+		transition: background-color 100ms linear;
+	}
+	
+	.ms-container .ms-selectable ul.ms-list{
+	  height: 140px;
+	  padding: 1px 0px;
+	  
+	  overflow-y: auto;
+	}
+	
+	.ms-container .ms-selection ul.ms-list{
+	  height: auto;
+	  padding: 1px 0px;
+	  
+	  overflow-y: auto;
+	}
+	
+	.ms-container .ms-selectable #search {
+		margin-bottom: 0;
+		border: none;
+		border-bottom: 1px solid #eee;
+	}
+	
+	.ms-container .ms-selectable #search::-webkit-input-placeholder {
+	    color: #ccc;
+	}
+	.ms-container .ms-selectable #search:-moz-placeholder {
+	    color: #ccc;
+	}
+	
+	.ms-container .ms-selectable {
+		cursor: pointer;
+	}
+	
+	.ms-container .ms-selection {
+		background: none;
+	}
+	
+	.ms-container .ms-selection li {
+	  padding: 1px 10px;
+	  cursor: pointer;
+	}
+	
+	
+	.ms-container .ms-selectable li.ms-elem-selectable,
+	.ms-container .ms-selection li.ms-elem-selectable {
+	  border-bottom: 1px #eee solid;
+	  padding: 1px 10px;
+	  color: #555;
+	}
+	
+	.ms-container .ms-selection li.ms-elem-selected {
+	  padding-left: 22px;
+	  color: #0096c8;
+	}
+	
+	.ms-container li.ms-elem-selectable:hover {
+	  background-color: #eee;
+	  color: #000;
+	}
+	
+	.ms-container .ms-selection li {
+	}
+	
+	.ms-container .ms-selection li:hover {
+	  color: #6185b8;
+	  background: transparent url('../img/delete.png') no-repeat 3px 3px;
+	}

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dev. Theme Autoswitch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-17 10:56+0100\n"
+"PO-Revision-Date: 2012-04-17 11:00+0100\n"
+"Last-Translator: Niko\n"
+"Language-Team: Niko <contact@nicolascambas.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2;plural=n>2\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:45
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Permissions insuffisantes pour accéder à cette page."
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:58
+msgid "Save Changes"
+msgstr "Enregistrer les changements"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:69
+msgid "Activate the plugin?"
+msgstr "Activer le plugin?"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:70
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:98
+msgid "Yes"
+msgstr "Oui"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:71
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:99
+msgid "No"
+msgstr "Non"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:75
+msgid "Development Theme"
+msgstr "Thème de développement"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:78
+msgid "That theme will be used when connected with the user account selected below."
+msgstr "Ce thème sera affiché à la place du thème actuel pour tous les utilisateurs sélectionnés ci-dessous."
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:84
+msgid "Choose users"
+msgstr "Sélectionnez les utilisateurs"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:87
+msgid "Clic the left column to choose one or more users who will see the development theme."
+msgstr "Sélectionnez dans la colonne de gauche le ou les utilisateurs qui utiliseront le thème de developpement."
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:97
+msgid "Show message on front?"
+msgstr "Afficher le message sur le site?"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:101
+msgid "Message text"
+msgstr "Texte du message"
+
+#: /Users/nicolascambas/Sites/wp-plugins-dev/wp-content/plugins/nc-dev-theme-autoswitch/dtas-optionspanel.php:105
+msgid "Show a little message (or not) on the top left of the front site."
+msgstr "Affiche un petit message sur le site indiquant que l'ont se trouve sur le thème de développement et non sur le thème par défaut."
+
